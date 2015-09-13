@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  	<title>Kevin Greer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal website of Kevin Greer, Computer Science student at Cornell University.">
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="smoothscroll.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="content.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">   
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" href="Assets/img/globe-icon.png">
+  </head>
+
+  <body onresize="frame_setup()">
+
+    <div class="jumbotron" id="jumbotron">
+      <div class="container">
+        <h1>Kevin Greer</h1>
+        <p>Computer Science Major at Cornell University</p>
+      </div>
+    </div>
+
+<!--     Navigation -->
+    <nav class="navbar navbar-default">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-kevin" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Nav</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+          </div>
+          <div>
+            <div class="navbar-collapse collapse" id="navbar-kevin">
+              <ul class="nav navbar-nav">
+                <li><a href="#a">About</a></li>
+                <li><a href="#p">Projects</a></li> 
+                <li><a href="#r">Resume</a></li> 
+                <li><a href="#c">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<!-- Sections -->
+    <div data-spy="scroll" data-target=".navbar" data-offset="12" class="test">
+      <div class="break" id="a"></div>
+      <div class="section about">
+        <h2>About</h2>
+        <div class="content" id="about">
+          
+<span>Hi, I'm Kevin Greer!</span> I'm a sophomore computer science major at Cornell University.
+<br><br>
+
+<!-- I've been interested in programming before I knew what programming was. In fifth grade a teacher was asking kids what they wanted to be when they grew up. I answered "professional video game player." Most of the other kids laughed with me, but the teacher replyed "No, don't laugh. Programming video games is a great business." Although I don't think Mr. Richter knew creating video games and playing them professionally are seperate jobs, he still introduced me to this new concept
+
+<br><br> -->
+
+When I came to Cornell, I wasn't sure if I wanted to pursue computer engineering or computer science, so I took classes in both areas. As a final project for my Intro to Electrical and Computer Engineering (ECE) class, I worked on building a device that measures the quality of a person's sleep using Arduino boards. This project allowed me to see ECE and CS side by side, and it helped me realize I was much more interested in software.
+
+<br><br>
+
+I'm looking to build software that truly makes an impact on people. That could mean enhancing someone's quality of life, revolutionizing an industry, or just making someone's day a bit better (it sounds cliché, I know&mdash;but it's true).
+
+<br><br>
+
+A lot of the work I've done is in iOS development&mdash;most recently with startups such as Belle Applications, Belle Delivery, and PeerPlus&mdash;and I'm definitely interested in continuing on that route. But I wouldn't want to pigeonhole myself into one branch of software; I'm also interested in gaining experience with software branches less familiar to me.
+
+<br><br>
+
+In addition to my interest in computer science, I'm an avid rock climber. I'm a member of the Cornell Rock Climbing Club and like to competitively and recreationally take on challenging climbing puzzles.
+<br><br>
+
+If you have any questions about me, work I've done, or even if you just want to talk about Game of Thrones, check out my <span><a href=#c>contact section</a></span> below.
+<br><br>
+
+Thanks for reading this far! Be sure to check out the rest of this site!
+        </div>
+      </div>
+      <div class="break" id="p"></div>
+      <div class="section projects odd">
+        <h2>Projects</h2>
+        <div class="content" id="projects">
+          <h3>PeerPlus</h3>
+          <img src="Assets/img/peerplus_logo.png" class="img-responsive project-img"> Most recently I've been involved in the development of the iOS app for the social network startup PeerPlus. If you're sick of eating alone, not finding enough people to go to a party, or just had trouble finding people to do activities&mdash;then PeerPlus is your solution. PeerPlus allows you to anonymously share statuses of what you're doing or would like to do, then connects you to other users nearby to join you instantly. Within minutes you'll have a group of people ready to watch The Shawshank Redemption or to play that pickup ultimate Frisbee game! I was the sole developer of this app, converting every view from mockups to functioning screens. I used a lot of APIs and frameworks to help with the development, like Parse for much of the back-end. <br><br>
+          PeerPlus is still in the testing phase, so you can't find it on the app store yet&mdash;but it's scheduled to launch by the start of the Spring 2016 semester!
+          <h3>Belle Delivery</h3>
+          <img src="Assets/img/belle-wordmark.png" class="img-responsive project-img"> Belle Delivery is a peer-to-peer food delivery service that anyone can easily use. It matches hungry users to people already shopping near the store they want. For example, do you want Chipotle but are too lazy to go? Just open up the Belle app and place an order for that Carnitas Burrito. Deliverers shopping at or near Chipotle will be notified of the order and one will grab the burrito and deliver it to you! You are happy because you now have Chipotle, and the deliverer is happy because she received a delivery fee for little effort on her part! I worked on a team of two to build Belle's iOS app from the ground up. <br><br>
+          Belle recently launched! You can download the app "Belle Delivery" <a href="https://itunes.apple.com/us/app/belle-delivery/id1010854661?mt=8">on the app store</a> now or go to <a href="http://belledelivery.com">our website</a> and start getting nearly any food in Ithaca delivered!
+          <h3>Jammin' with Jen</h3>
+          <img src="Assets/img/jamberry.png" class="img-responsive project-img"> Jamberry Nails is a nail wraps company that sells a wide variety of easily-to-apply, do-it-yourself wraps. Many independent consultants host Jamberry wrap parties to sell product for commission, and have their own section of the company website that customers can shop from so that Jamberry knows who sold the particular wraps. I developed an iOS application for an independent consultant to facilitate her overall job. The app allows customers to shop, join Jamberry, and host parties. They can also request a free sample, view a tutorial of how to apply the wraps, and view frequently asked questions about Jamberry. <br><br>
+          Jammin' with Jen can be found <a href="https://itunes.apple.com/us/app/jammin-jen-jamberry-independent/id987003326?mt=8"> on the app store! </a>
+          <h3>Multi-core Network Honeypot</h3>
+          <!-- <img src="backgrounds/7.jpeg" class="img-responsive project-img"> --> As a final project for my "Computer Systems Organization and Programming" class during the Spring 2015 semester, I collaborated with a peer to construct a network honeypot. The system that receives packets from a network device, analyzes and classifies those packets, and tracks various statistics over time. The system will employ a concurrency-safe datastructure to capitalize on the simulated multi-core MIPS processor, will have a simple interactive user interface to allow the statistics to be displayed to the user, and a way to control the system over the network. The system can withstand speeds of up to 10Mbps without dropping packets.
+          <h3>MIPS Processor</h3>
+          <img src="Assets/img/MIPS.png" class="img-responsive project-img"> Another project I completed in "Computer Systems Organization and Programming" was a five-stage pipelined processor. The processor performs a large subset of instructions in the MIPS assembly language. The five stages of the circuit are: Instruction Fetch, Instruction Decode, Execute, Memory, and Write back. Between each stage is a set of registers that stores certain values calculated by previous stages and needed in future stages. Since there are five stages in this processor, five different instructions can be processed in parallel. It employs data forwarding to prevent data hazards, strategic stalling to prevent control hazards, and there is a single clock connected to every register in the circuit. The circuit was made using the simulation software Logisim. <br><br>
+          If you're interested in learning more about this project, my partner and I wrote an in depth paper documenting its design. You can read it <a href="Assets/mips_design_doc.pdf">here!</a>
+          <h3>Jumpy Man</h3>
+          <img src="Assets/img/jumpy-icon.png" class="img-responsive project-img"> First there was Flappy Bird. Then came Crossy Road. Now there's Jumpy Man. Jumpy Man is a personal project of mine, and it's an endless arcade game for iOS. The game involves an animated man jumping over obstacles to survive as long as possible. Along the way you can collect powerups to stay alive even longer! There is also a menu page to greet the user, a settings page to customize preferences, and a store to unlock powerups (the currency is the number of obstacles you've jumped over). All of the art in this game was drawn in a Photoshop-esque app by yours truly. <br><br>
+          Jumpy Man is not quite finished, so it's unfortunately not on the app store yet. But I expect to finish it this winter and have it available for your gaming pleasure!
+        </div>
+      </div>
+      <div class="break" id="r"></div>
+      <div class="section resume">
+        <h2>Résumé</h2>
+        <div class="content" id="resume">
+          The information on this site is neatly summarized here in my <span><a href="Assets/resume.pdf">résumé.</a></span>
+        </div>
+      </div>
+      <div class="break" id="c"></div>
+      <div class="section contact odd">
+        <h2>Contact</h2>
+        <div class="content" id="contact">
+          <a href="mailto:keg84@cornell.edu"><i class="fa fa-envelope-o fa-5x"></i></a>
+          <a href="https://www.github.com/kevingreer"><i class="fa fa-github fa-5x"></i></a>
+          <a href="https://www.linkedin.com/in/kevinegreer"><i class="fa fa-linkedin fa-5x"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
