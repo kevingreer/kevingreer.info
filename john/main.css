@@ -1,0 +1,68 @@
+body {
+  background-color: #333; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+a:link {
+  color:#FFFAFA;
+}
+
+a:visited {
+  color:#FFFAFA;
+}
+
+a:hover {
+  color:#ffa31a;
+}
+
+ul li {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Montserrat';
+  padding: 50px;
+}
+
+.odd {
+  background-color: #555;
+}
+
+.jumbotron {
+  background-color: #5F88DA;
+  height: 400px;
+  margin: 0px;
+  background-image: url("bg.jpg");
+  background-size: 100%;
+}
+
+.jumbotron .container {
+  text-align: center;
+  position: relative;
+  top: 50%; /* Fallback */
+  -webkit-transform: translateY(-50%);
+
+  border-radius: 10px;
+  width: 90%;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 100px;  
+  font-family: 'Bevan';
+  font-weight: 500;
+  text-shadow: 0px 2px 5px #000;
+}
+
+.jumbotron p {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  text-shadow: 0px 1px 2px #000;
+}
